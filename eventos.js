@@ -1,5 +1,6 @@
 function mostrarMensaje() {
     alert("Hola! Soy el div");
+    event.stopPropagation();
   }
   
   document.addEventListener("DOMContentLoaded", function () {
